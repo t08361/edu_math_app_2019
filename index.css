@@ -1,7 +1,7 @@
 .header{
    text-align: center;
    margin-top: 60px;    
-   margin-bottom: 80px;
+   margin-bottom: 40px;
 
 }
 
@@ -14,6 +14,8 @@
 
 .coin-img{
     display: inline-block;
+    margin-right: 110px;
+
 }
 
 .get-coin{

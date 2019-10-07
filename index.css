@@ -5,11 +5,31 @@
 
 }
 
+.all{
+    background-color: #D6CBEB;   
+
+}
+
+
+
+.coin-img{
+    display: inline-block;
+}
+
+.get-coin{
+    display: inline-block;
+    
+}
+
 .main{
     
 }
 
-.all{
-    background-color: lightblue;   
+.point-explain{
+    display: inline-block;
+}
 
+.student{
+    display: inline-block;
+    margin-right: 180px;
 }

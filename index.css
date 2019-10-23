@@ -9,11 +9,11 @@ button{
     background-color: #b1e8ed; /* Green */
     border: none;
     color: black;
-    padding: 8px 22px;
+    padding: 10px 24px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
     margin: 3px;
     border-radius: 8px;
@@ -21,7 +21,7 @@ button{
 }
 button:hover{
     background-color: #f5f0e3; 
-    padding: 8px 22px;
+    padding: 10px 24px;
     border-radius: 8px;
     color: black;
     

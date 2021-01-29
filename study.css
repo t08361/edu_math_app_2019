@@ -6,14 +6,14 @@
     padding: 15px;
     background-color: #f5f0e3;
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     width: 37%;
 }
 
 button{
     all: unset;
-    font-size: 17px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: bold; 
     text-align: center;
     margin: 1px;
     background-color: tomato;

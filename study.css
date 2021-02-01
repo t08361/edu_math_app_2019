@@ -3,23 +3,32 @@
     margin: 28px 8px;
     border-radius:15px 15px 0px 15px;
     display: inline-block;
-    padding: 1px;
+    padding: 4px;
     background-color: #f5f0e3;
     text-align: center;
-    font-size: 13px;
+    font-size: 15px;
     width: 37%;
 }
 
 button{
     all: unset;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: bold; 
     text-align: center;
     margin: 1px;
     background-color: tomato;
     border-radius: 4px;
     padding: 5px;
-    color: rgb(245, 241, 13);
+    color: white;
+}
+button:hover{
+    background-color: #f5f0e3; 
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-size: 40px;
+    color: black;
+    
+
 }
 .section{
     

@@ -12,7 +12,7 @@
 
 button{
     all: unset;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold; 
     text-align: center;
     margin: 1px;
@@ -22,11 +22,11 @@ button{
     color: white;
 }
 button:hover{
-    background-color: #f5f0e3; 
-    padding: 10px 24px;
-    border-radius: 8px;
-    font-size: 40px;
-    color: black;
+    background-color: rgb(255, 145, 71); 
+    padding: 8px;
+    border-radius: 18px;
+    font-size: 18px;
+    color: white;
     
 
 }

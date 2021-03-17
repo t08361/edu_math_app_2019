@@ -1,0 +1,43 @@
+.all {
+    background-color:#f5f0e3;    
+}
+
+.detail{
+    display:none;
+}
+.header {
+    text-align: center;
+    margin: 19px;
+    padding:10px;
+    margin-bottom:28px;
+}
+.container {
+    
+}
+
+.btn1{
+
+}
+.middle{
+    text-align:center;
+}
+
+.list-border-1 {
+    border: none;
+    display: table;
+    display: inline-block;
+    padding: 20px;
+    margin:10px;
+    font-size:20px;
+    list-style: none;
+    text-align: left;
+}
+.list-group{
+    margin-bottom: 10px;
+    
+}
+.list-group1{
+    border-bottom: 4px dotted black;
+    margin-bottom: 17px;
+    padding-bottom: 17px;
+}

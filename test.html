@@ -4,68 +4,138 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="test.js"></script>
+    <link rel="stylesheet" href="test.css">
     <title>테스트</title>
-    <style>
-        .all {
-            
-        }
-        .header {
-            text-align: center;
-            margin: 19px;
-            padding:10px;
-            margin-bottom:28px;
-        }
-        .container {
-            
-        }
-        button{
-            margin:10px;
-            border:none;
-        }
-        .middle{
-            text-align:center;
-        }
-
-        .list-border-1 {
-            border: none;
-            display: table;
-            display: inline-block;
-            padding: 20px;
-            margin:10px;
-            font-size:30px;
-            list-style: none;
-            text-align: left;
-        }
-        .list-group{
-            margin-bottom: 10px;
-            
-        }
-        .list-group1{
-            border-bottom: 4px dotted black;
-            margin-bottom: 17px;
-            padding-bottom: 17px;
-        }
-    </style>
 </head>
 <body class="all">
     <div class="container">
     <div class="header">
     <h1>시험 내용</h1><br>
     <h1>시험 잘보려면 자주 이용해야할 부분!  ㅎ.ㅎ</h1>
-    <button type="button" onclick="location.href='https://youtu.be/6StQV3g7gV4' ">준쌤</button>
-    <button type="button" onclick="location.href='https://www.youtube.com/results?search_query=%EC%A4%913+%EC%88%98%ED%95%99' ">유튜브</button>
+    <button type="button" onclick="location.href='https://youtu.be/6StQV3g7gV4' ">준쌤강의</button>
+    <button type="button" onclick="location.href='https://www.youtube.com/results?search_query=%EC%A4%913+%EC%88%98%ED%95%99' ">다른선생님강의</button>
     </div>
     <div class="middle">
         <ul class="list-border-1">
-            <li class="list-group">시험 1. 제곱근과 실수</li>
-            <li class="list-group list-group1">시험 2. 제곱근을 포함한 사칙연산</li>
-            <li class="list-group">시험 3. 다항식의 곱셈</li>
-            <li class="list-group list-group1">시험 4. 인수분해</li>
-            <li class="list-group">시험 5. 이차방정식 풀이</li>   
-            <li class="list-group list-group1">시험 6. 이차방정식 응용</li>
-            <li class="list-group">시험 7. 이차함수 그래프</li>
-            <li class="list-group">시험 8. 이차함수 응용</li>
+            <li class="list-group">시험 1. 제곱근과 실수
+                <button class="btn1" onclick="div_show(i=1)" id="">더보기</button>
+                <button class="btn1" onclick="div_hide(i=1)" id="">없애기</button>
+                <div class="detail" id="detail1-1" title="1-1">
+                    <ul>
+                        <li>제곱근이란</li>
+                        <li>제곱근의 성질</li>
+                        <li>대소관계1</li>
+                        <li>무리수, 실수</li>
+                        <li>수직선 위에 무리수찍기 </li>
+                        <li>대소관계2</li>
+
+                    </ul>
+                </div>
+            </li>
+            <li id="list-group list-group1">시험 2. 제곱근을 포함한 사칙연산
+                <button class="btn1" onclick="div_show(i=2)" id="">더보기</button>
+                <button class="btn1" onclick="div_hide(i=2)" id="">없애기</button>
+                <div class="detail" id="detail1-2">
+                    <ul>
+                        <li>곱셈과 나눗셈</li>
+                        <li>근호가 있는 식의 변형</li>
+                        <li>분모의 유리화1</li>
+                        <li>덧셈과 뺄셈</li>
+                        <li>분배법칙 이용한 식의 계산</li>
+                        <li>근호를 포함한 식의 혼합계산</li>
+                        <li>제곱근의 값, 정수부분과 소수부분</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="list-group">시험 3. 다항식의 곱셈
+                <button class="btn1" onclick="div_show(i=3)" id="">더보기</button>
+                <button class="btn1" onclick="div_hide(i=3)" id="">없애기</button>
+                <div class="detail" id="detail2-1">
+                    <ul>
+                        <li>분배법칙과 동류항</li>
+                        <li>곱셈공식</li>
+                        <li>복잡한 식의 전개</li>
+                        <li>두 수의 제곱, 두 수의 곱</li>
+                        <li>분모의 유리화2</li>
+                        <li>곱셈공식의 변형</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="list-group list-group1">시험 4. 인수분해
+                <button class="btn1" onclick="div_show(i=4)" id="">더보기</button>
+                <button class="btn1" onclick="div_hide(i=4)" id="">없애기</button>
+                <div class="detail" id="detail2-2">
+                    <ul>
+                        <li>인수분해란, 공통인수</li>
+                        <li>곱셈공식을 이용한 인수분해</li>
+                        <li>일반적인 인수분해 방법</li>
+                        <li>공통부분이 있는 식 인수분해</li>
+                        <li>항이 4개인 식</li>
+                        <li>()()()()+k꼴</li>
+                        <li>항이 5개 이상(문자여러개)</li>
+                        <li>수의 계산, 식의 값</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="list-group">시험 5. 이차방정식 풀이
+                <button class="btn1" onclick="div_show(i=5)" id="">더보기</button>
+                <button class="btn1" onclick="div_hide(i=5)" id="">없애기</button>
+                <div class="detail" id="detail3-1">
+                    <ul>
+                        <li>이차방정식이란, 이차방정식의 해</li>
+                        <li>인수분해를 이용한 풀이</li>
+                        <li>중근, 중근을 가질 조건</li>
+                        <li>제곱근을 이용한 풀이</li>
+                        <li>이차식 완전제곱식으로 변형하는 방법</li>
+                        <li>근의 공식</li>
+                        <li>복잡한 식의 이차방정식 풀이</li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </li>   
+            <li class="list-group list-group1">시험 6. 이차방정식 응용
+                <button class="btn1" onclick="div_show(i=6)" id="">더보기</button>
+                <button class="btn1" onclick="div_hide(i=6)" id="">없애기</button>
+                <div class="detail" id="detail3-2">
+                    <ul>
+                        <li>근의 공식</li>
+                        <li>복잡한 식의 이차방정식 풀이</li>
+                        <li>이차방정식 근의 개수</li>
+                        <li>두 근이 주어졌을 때 이차방정식 구하기</li>
+                        <li>근의 공식</li>
+                        <li>복잡한 식의 이차방정식 풀이</li>
+                        <li>이차방정식의 활용</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="list-group">시험 7. 이차함수 그래프
+                <button class="btn1" onclick="div_show(i=7)" id="">더보기</button>
+                <button class="btn1" onclick="div_hide(i=7)" id="">없애기</button>
+                <div class="detail" id="detail4-1">
+                    <ul>
+                        <li>이차함수란, 포물선이란</li>
+                        <li>그래프의 성질1</li>
+                        <li>그래프의 성질2</li>
+                        <li>그래프의 성질3</li>
+                        <li>그래프의 성질4</li>
+                        <li>그래프의 성질5</li>
+                        <li>그래프의 성질6</li>
+                        <li>그래프의 평행이동, 대칭이동</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="list-group">시험 8. 이차함수 응용
+                <button class="btn1" onclick="div_show(i=8)" id="">더보기</button>
+                <button class="btn1" onclick="div_hide(i=8)" id="">없애기</button>
+                <div class="detail" id="detail4-2">
+                    <ul>
+                        <li>일반식으로 표현된 이차함수 그리기</li>
+                        <li>각각의 미지수의 부호에 따른 그래프</li>
+                    </ul>
+                </div>
+            </li>
         </ul>
     </div>
         

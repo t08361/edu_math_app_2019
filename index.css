@@ -9,7 +9,7 @@
 button{ 
     background-color: #b1e8ed;                            /* Green  */
     color: black;
-    padding: 10px 24px;
+    padding: 4px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -21,7 +21,7 @@ button{
 }
 button:hover{
     background-color: #f5f0e3; 
-    padding: 10px 24px;
+    padding: 4px 10px;
     border-radius: 8px;
     color: black;
     
@@ -29,7 +29,7 @@ button:hover{
 }
 button:active{
     background-color: #f5f0e3; 
-    padding: 10px 24px;
+    padding: 4px 10px;
     border-radius: 8px;
     color: black;
     border: none;

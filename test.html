@@ -12,7 +12,6 @@
 <body class="all">
     <div class="container">
     <div class="header">
-    <h1>시험 내용</h1><br>
     <h1>시험 잘보려면 자주 이용해야할 부분!  ㅎ.ㅎ</h1>
     <button type="button" onclick="location.href='https://youtu.be/6StQV3g7gV4' ">준쌤강의</button>
     <button type="button" onclick="location.href='https://www.youtube.com/results?search_query=%EC%A4%913+%EC%88%98%ED%95%99' ">다른선생님강의</button>
@@ -24,7 +23,7 @@
                 <button class="btn1" onclick="div_hide(i=1)" id="">-</button>
                 <div class="detail" id="detail1-1" title="1-1">
                     <ul>
-                        <li>제곱근이란</li>
+                        <li>제곱근이란(루트등장)</li>
                         <li>제곱근의 성질</li>
                         <li>대소관계1</li>
                         <li>무리수, 실수</li>
@@ -34,29 +33,29 @@
                     </ul>
                 </div>
             </li>
-            <li id="list-group list-group1">시험 2. 근호 포함식의 사칙연산
-                <button class="btn1" onclick="div_show(i=2)" id="">+</button>
-                <button class="btn1" onclick="div_hide(i=2)" id="">-</button>
-                <div class="detail" id="detail1-2">
+            <li class="list-group list-group1">시험 2. 근호가 포함식 사칙연산
+                <button class="btn1" onclick="div_show(i=4)" id="">+</button>
+                <button class="btn1" onclick="div_hide(i=4)" id="">-</button>
+                <div class="detail" id="detail2-2">
                     <ul>
                         <li>곱셈과 나눗셈</li>
                         <li>근호가 있는 식의 변형</li>
                         <li>분모의 유리화1</li>
                         <li>덧셈과 뺄셈</li>
                         <li>분배법칙 이용한 식의 계산</li>
-                        <li>근호를 포함한 식의 혼합계산</li>
+                        <li>근호 포함식 혼합계산</li>
                         <li>제곱근의 값, 정수부분과 소수부분</li>
                     </ul>
                 </div>
             </li>
-            <li class="list-group">시험 3. 다항식의 곱셈
+            <li class="list-group ">시험 3. 다항식의 곱셈
                 <button class="btn1" onclick="div_show(i=3)" id="">+</button>
                 <button class="btn1" onclick="div_hide(i=3)" id="">-</button>
                 <div class="detail" id="detail2-1">
                     <ul>
                         <li>분배법칙과 동류항</li>
-                        <li>곱셈공식</li>
-                        <li>복잡한 식의 전개</li>
+                        <li>곱셈공식(a+b)(a-b)등등</li>
+                        <li>복잡한 식의 전개 ()()()()형태</li>
                         <li>두 수의 제곱, 두 수의 곱</li>
                         <li>분모의 유리화2</li>
                         <li>곱셈공식의 변형</li>
@@ -71,7 +70,7 @@
                         <li>인수분해란, 공통인수</li>
                         <li>곱셈공식을 이용한 인수분해</li>
                         <li>일반적인 인수분해 방법</li>
-                        <li>공통부분이 있는 식 인수분해</li>
+                        <li>공통부분이 있는 식 인수분해(치환)</li>
                         <li>항이 4개인 식</li>
                         <li>()()()()+k꼴</li>
                         <li>항이 5개 이상(문자여러개)</li>
@@ -87,12 +86,8 @@
                         <li>이차방정식이란, 이차방정식의 해</li>
                         <li>인수분해를 이용한 풀이</li>
                         <li>중근, 중근을 가질 조건</li>
-                        <li>제곱근을 이용한 풀이</li>
                         <li>이차식 완전제곱식으로 변형하는 방법</li>
-                        <li>근의 공식</li>
-                        <li>복잡한 식의 이차방정식 풀이</li>
-                        <li></li>
-                        <li></li>
+                        <li>제곱근을 이용한 풀이</li>
                     </ul>
                 </div>
             </li>   
@@ -116,14 +111,15 @@
                 <button class="btn1" onclick="div_hide(i=7)" id="">-</button>
                 <div class="detail" id="detail4-1">
                     <ul>
-                        <li>이차함수란, 포물선이란</li>
-                        <li>그래프의 성질1</li>
-                        <li>그래프의 성질2</li>
-                        <li>그래프의 성질3</li>
-                        <li>그래프의 성질4</li>
-                        <li>그래프의 성질5</li>
-                        <li>그래프의 성질6</li>
+                        <li>이차함수란</li>
+                        <li>포물선이란(꼭짓점,축)</li>
+                        <li>그래프의 기울어진 정도</li>
+                        <li>그래프의 상하 이동</li>
+                        <li>그래프의 좌우 이동</li>
+                        <li>그래프의 상하좌우 이동</li>
+                        <li>이차함수의 a,p,q의 부호</li>
                         <li>그래프의 평행이동, 대칭이동</li>
+                        
                     </ul>
                 </div>
             </li>
@@ -132,16 +128,22 @@
                 <button class="btn1" onclick="div_hide(i=8)" id="">-</button>
                 <div class="detail" id="detail4-2">
                     <ul>
-                        <li>일반식으로 표현된 이차함수 그리기</li>
-                        <li>각각의 미지수의 부호에 따른 그래프</li>
+                        <li>일반식 이차함수 그리기(완전제곱식)</li>
+                        <li>x축, y축과의 교점구하기</li>
+                        <li>일반식 이차함수 a,b,c의 부호</li>
+                        <li>꼭짓점과 다른 한 점을 알때,식</li>
+                        <li>축의 방정식과 주점을 알때,식</li>
+                        <li>서로 다른 세 점을 알때,식</li>
+                        <li>x축과의 두교점과 다른한점을 알때,식</li>
                     </ul>
                 </div>
             </li>
         </ul>
     </div>
-        
-        
     </div>
+    </div>
+    <div class="home">
+        <a href="index.html" ><button >홈</button></a>
     </div>
 </body>
 </html>

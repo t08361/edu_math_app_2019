@@ -27,6 +27,10 @@ function div_hide(i) {
     else if(i == 8){
         document.getElementById("detail4-2").style.display = "none";
     }
+    else if(i == 9){
+        document.getElementById("video1").style.display = "none";
+        document.getElementById("videooff1").style.display = "none";
+    }
     }
     
 
@@ -58,6 +62,8 @@ function div_show(i) {
     }
     else if(i == 9){
         document.getElementById("video1").style.display = "block";
+        document.getElementById("videooff1").style.display = "block";
+        
     }
     }
     

@@ -45,6 +45,14 @@
 .home{
     text-align: center;
 }
-#video1{
+
+.videooff{
     display: none;
+}
+.video{
+    display: none;
+}
+
+.sdf{
+    display:inline-block;
 }
